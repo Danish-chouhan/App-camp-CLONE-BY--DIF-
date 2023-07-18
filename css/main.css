@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+/* header */
+
+header {
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  width: 100%;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  padding: 2% 0px 0% 0px;
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.645);
+  top: 0%;
+  position: fixed;
+}
+.points {
+  display: flex;
+}
+.points div {
+  border: 1px solid black;
+  margin: 0px 10px 10px 10px;
+  width: 130px;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.574);
+}
+
+.points div i {
+  font-size: 20px;
+}
+.points1 {
+  background-color: rgb(191, 121, 191);
+}
+.points2 {
+  background-color: rgb(216, 189, 30);
+}
+.fa-bell {
+  font-size: 30px;
+  margin: 0px 0px 0 10px;
+}
+
+/* main */
+
+main {
+  height: 100%;
+}
+.top {
+  height: 30%;
+  margin: 8% 20% 5% 20%;
+}
+.top img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+.navOftop {
+  display: flex;
+  justify-content: center;
+}
+.navOftop h1 {
+  font-size: 20px;
+  color: rgba(180, 180, 180, 0.641);
+  margin: 10px 20px 0 0;
+}
+#EleOfNavTop1 {
+  font-size: 30px;
+  color: black;
+}
+.task1,
+.task2,
+.task3,
+.task4,
+.task5,
+.task6 {
+  padding: 0% 2% 0% 2%;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  height: 100px;
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+}
+.task1 p,
+.task2 p,
+.task3 p,
+.task4 p,
+.task5 p,
+.task6 p {
+  color: rgb(255, 183, 0);
+}
+
+.block2OfTask {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  align-items: center;
+}
+.block2OfTask i {
+  color: gold;
+  font-size: 30px;
+}
+.block1OfTask {
+  display: flex;
+  width: 50%;
+  justify-content: start;
+  align-items: center;
+}
+.block1OfTask img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 1%;
+}
+.task6 {
+  margin-bottom: 80px;
+}
+/* footer */
+footer {
+  border-top: 12px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  height: 90px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: black;
+  width: 100%;
+  bottom: 0%;
+  position: fixed;
+}
+footer button {
+  border: 5px solid white;
+  background-color: transparent;
+  margin: 0px 20px 0 0;
+  height: 60px;
+  border-radius: 50%;
+  width: 60px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.456);
+}
+
+footer button:hover {
+  border: 5px solid white;
+  background-color: rgb(202, 114, 202);
+  margin: -30px 20px 0 0;
+  transition: 0.4s ease-in-out;
+  box-shadow: none;
+  color: white;
+}
+footer button h1 {
+  font-size: 10px;
+}
+footer button i {
+  font-size: 20px;
+}
+
+.btn1OfFooter {
+  border: 5px solid white;
+  background-color: rgb(202, 114, 202);
+  margin: 0px 20px 0 0;
+  box-shadow: none;
+  height: 60px;
+  width: 60px;
+  color: white;
+}
+
+.btn1OfFooter {
+  border: 5px solid white;
+  background-color: rgb(202, 114, 202);
+  margin: -30px 20px 0 0;
+  box-shadow: none;
+  color: white;
+}
+
+.btn2OfFooter,
+.btn3OfFooter,
+.btn4OfFooter {
+  border: 5px solid white;
+  background-color: transparent;
+  margin: 0px 20px 0 0;
+  height: 60px;
+  border-radius: 50%;
+  width: 60px;
+  color: black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.456);
+}
+/* media equary */
+@media only screen and (max-width: 600px) {
+  /* header */
+  header {
+    top: -0.5%;
+  }
+  .points {
+    display: flex;
+  }
+  .points div {
+    width: 100px;
+  }
+  .points div i {
+    font-size: 19px;
+  }
+  .fa-bell {
+    font-size: 20px;
+    margin: 0px 0px 5px 10px;
+  }
+  /* Main */
+
+  .top {
+    height: 30%;
+    margin: 18% 10% 5% 10%;
+  }
+  .top img {
+    height: 150px;
+  }
+  .navOftop h1 {
+    font-size: 10px;
+  }
+  #EleOfNavTop1 {
+    font-size: 15px;
+    color: black;
+  }
+  .task1,
+  .task2,
+  .task3,
+  .task4,
+  .task5,
+  .task6 {
+    padding: 0% 2% 0% 2%;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    height: 90px;
+    font-size: 9px;
+  }
+  .task1 p,
+  .task2 p,
+  .task3 p,
+  .task4 p,
+  .task5 p,
+  .task6 p {
+    color: rgb(255, 183, 0);
+    font-size: 12px;
+  }
+
+  .block2OfTask {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    align-items: centerx;
+  }
+  .block2OfTask i {
+    color: gold;
+    font-size: 20px;
+  }
+  .block1OfTask {
+    display: flex;
+    width: 70%;
+    justify-content: start;
+    align-items: center;
+  }
+  .block1OfTask img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 1%;
+  }
+  /* Footer  */
+
+  footer {
+    border-top: 6px solid black;
+  }
+  footer button {
+    height: 50px;
+    width: 50px;
+  }
+  footer button:hover {
+    margin: -35px 20px 0 0;
+  }
+  footer button i {
+    font-size: 15px;
+  }
+}

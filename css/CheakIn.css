@@ -1,0 +1,119 @@
+header{
+    justify-content: center;
+}
+.container1{
+    margin: 7% 5% 0 5% ;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+.blog1OfContainer1{
+    border: 10px solid rgb(206, 205, 205);
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+.container2{
+    margin: 7% 10% 0 10% ;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.container2 button{
+    margin: 0 0 0 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(225, 225, 225);
+}
+.container2 button i{
+    margin: 10px 0 10px 0;
+    color: gold;
+    font-size: 30px;
+}
+
+.Daily-Quests{
+    margin: 7% 10% 10% 10% ;
+}
+.Main-Quests{
+    margin: 7% 10% 10% 10% ;
+
+}
+.blog1OfDailyQuest{
+    margin: 40px 0 0 0;
+}
+.blog1OfDailyQuest{
+    display: flex;
+    justify-content: space-between;
+}
+.blog2OfDailyQuest{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    font-size: 20px;
+}
+.blog3OfDailyQuest{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-around;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 60px;
+}
+.blog3OfDailyQuest i{
+    font-size: 20px;
+    color: gold;
+}
+  
+.btn3OfFooter{
+    border: 5px solid white;
+    background-color: rgb(202, 114, 202);
+    margin: -30px 20px 0 0;
+    box-shadow: none;
+    color: white;
+  }
+    
+  .btn1OfFooter,.btn2OfFooter,.btn4OfFooter{
+    border: 5px solid white;
+    background-color: transparent;
+    margin: 0px 20px 0 0;
+    height: 60px;
+    border-radius: 50%;
+    width: 60px;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.456);
+  }
+
+@media only screen and (max-width: 600px) {
+
+.container1{
+    margin: 12% 0% 0 0% ;
+}
+.container2{
+    margin: 7% 0% 0 0% ;
+    display:inline;
+}
+.container2 button{
+    margin: 10px 0 10px 20px;
+    height: 130px;
+    width: 100px;
+}
+
+.Main-Quests{
+    margin: 7% 5% 10% 5% ;
+
+}
+.blog2OfDailyQuest{
+    width:  100%;  
+    font-size:  12px;
+}
+.blog2OfDailyQuest i{
+    font-size: 20px;
+}
+}
